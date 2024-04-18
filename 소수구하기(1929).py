@@ -18,7 +18,7 @@
 
 
 """답안"""
-m, n = map(int, input().split())
+m, n = map(int, input().split()) # m이상 n이하의 소수
 
 for i in range(m, n + 1):
     if i == 1:
